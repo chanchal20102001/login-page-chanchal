@@ -45,7 +45,7 @@
             background-color: #0056b3;
         }
     </style>
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
     <div class="login-container">
@@ -54,9 +54,9 @@
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             
-            <!-- Cloudflare Turnstile Challenge -->
-            <div class="cf-turnstile" data-sitekey="<YOUR_SITE_KEY>"></div>
-            
+            <!-- Cloudflare Turnstile Widget -->
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAA_ec0UTITasZmil"></div>
+
             <button type="submit">Login</button>
         </form>
     </div>
